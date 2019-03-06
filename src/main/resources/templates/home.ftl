@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<#assign ctx = request.contextPath>
-<html>
-<head>
-    <title>requirements management</title>
-</head>
+<#import "basicLayout.ftl" as basicLayout>
 
-<body>
-    <p>Hello world!</p>
-</body>
-</html>
+<@basicLayout.layout>
+<div class="row">
+    <div class="col-sm-offset-1 col-sm-10 page-header">
+        <h1>首页</h1>
+    </div>
+</div>
+
+</@basicLayout.layout>
